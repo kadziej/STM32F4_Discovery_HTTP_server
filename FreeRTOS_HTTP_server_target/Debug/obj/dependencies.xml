@@ -1,0 +1,1327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\HTTP /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\include\ipv4\lwip /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\STM32F4x7_ETH_Driver /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\port\STM32F4x7\FreeRTOS /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\FreeRTOS\include /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\OneWire /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\STM32F4xx_StdPeriph_Driver\inc /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\RTC /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\FreeRTOS /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\STM32F4x7_ETH_Driver\inc /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\cmsis_boot /ID:\Dropbox /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\netif\ppp /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\SD /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\port /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\SNTP_netconn /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\FreeRTOS\portable /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\FreeRTOS\portable\GCC\ARM_CM4F /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\netif /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\GPIO_ADC /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\HTTP\src /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\FatFs /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\HTTP\inc /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\include /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\port\STM32F4x7 /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\STM32F4-Discovery /ID:\Dropbox\CooCox /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\Settings /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\cmsis /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\port\STM32F4x7\arch /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\STM32F4xx_StdPeriph_Driver /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\include\ipv4 /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\include\netif /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\FreeRTOS\portable\GCC /ID:\Dropbox\CooCox\STM32F4_discovery_BB_SerwerHTTP\lwip_v1.3.2\src\include\lwip">
+      <source file="..\..\..\HTTP\src\fs.c" lastModified="1409aaae610">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\HTTP\inc\fs.h"/>
+         <include file="..\..\..\HTTP\inc\fsdata.h"/>
+         <include file="..\..\..\HTTP\src\fsdata_header.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_usart.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\croutine.c" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\autoip.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\slipif.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_md5.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\queue.c" lastModified="140872d4650">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\raw.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+      </source>
+      <source file="..\..\..\HTTP\inc\lwipopts.h" lastModified="13c0ec74d40">
+      </source>
+      <source file="..\..\..\FreeRTOS\include\projdefs.h" lastModified="140872d3e80">
+      </source>
+      <source file="..\..\..\HTTP\src\fsdata_header.h" lastModified="13c0ec74d40">
+         <include file="..\..\..\HTTP\inc\fs.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\HTTP\inc\fsdata.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dbgmcu.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h" lastModified="140872d3e80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h" lastModified="13c0ec764b0">
+      </source>
+      <source file="..\..\..\HTTP\inc\fs.h" lastModified="13c0ec74d40">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_debug.h" lastModified="13d42c29810">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\tcpip.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\init.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\fonts.h" lastModified="13d42c29bf8">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_debug.c" lastModified="147b5e6c2a8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_debug.h"/>
+      </source>
+      <source file="..\..\..\HTTP\inc\fsdata.h" lastModified="13c0ec74d40">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\HTTP\inc\fs.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_msg.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\fonts.c" lastModified="13d42c29810">
+         <include file="..\..\..\STM32F4-Discovery\fonts.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h" lastModified="13c0ec764b0">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\FreeRTOS\portable\MemMang\heap_4.c" lastModified="14033ea6cc0">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vjbsdhdr.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\queue.h" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lcd.h" lastModified="13d42c29810">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\STM32F4-Discovery\fonts.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\task.h" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\portable.h"/>
+         <include file="..\..\..\FreeRTOS\include\list.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lcd.c" lastModified="13d42c29810">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lcd.h"/>
+         <include file="..\..\..\STM32F4-Discovery\fonts.c"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\ip.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_sdio.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\GPIO_ADC\gpio_adc.h" lastModified="14804cc02c0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\GPIO_ADC\gpio_adc.c" lastModified="1496178a57f">
+         <include file="..\..\..\GPIO_ADC\gpio_adc.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_tdes.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\FreeRTOSConfig.h" lastModified="148232586d8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\SD\sd_card.h" lastModified="149fc2e49d4">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Settings\settings.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netbuf.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\portable.h" lastModified="140872e09a0">
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\semphr.h" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\queue.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\list.h" lastModified="140872d3e80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\api_msg.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_structs.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\timers.h" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\portable.h"/>
+         <include file="..\..\..\FreeRTOS\include\list.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\HTTP\src\netconf.c" lastModified="14819ec4e30">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\FreeRTOS\ethernetif.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\Settings\settings.h"/>
+         <include file="..\..\..\HTTP\inc\netconf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_i2c.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\tcp_out.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\ip_addr.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\sio.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cc.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cpu.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_iwdg.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netdb.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+      </source>
+      <source file="..\..\..\OneWire\tm_stm32f4_onewire.h" lastModified="149fc11015d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\tcp_in.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\mpu_wrappers.h" lastModified="140872d3e80">
+      </source>
+      <source file="..\..\..\OneWire\tm_stm32f4_onewire.c" lastModified="149fc180b7e">
+         <include file="..\..\..\OneWire\tm_stm32f4_onewire.h"/>
+      </source>
+      <source file="..\..\..\STM32F4x7_ETH_Driver\src\stm32f4x7_eth.c" lastModified="13c0ec78008">
+         <include file="..\..\..\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\loopif.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\loopif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\etharp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\croutine.h" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\list.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\inet_chksum.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\igmp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\pbuf.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_adc.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\StackMacros.h" lastModified="140872d3e80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h"/>
+      </source>
+      <source file="..\..\..\Settings\settings.h" lastModified="14a4ba22b00">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\udp.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\perf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\mem.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\sockets.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h" lastModified="1493d7b3d42">
+         <include file="..\..\..\HTTP\inc\lwipopts.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+      </source>
+      <source file="..\..\..\Settings\settings.c" lastModified="14a4e208290">
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_debug.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.h"/>
+         <include file="..\..\..\OneWire\tm_stm32f4_onewire.h"/>
+         <include file="..\..\..\FatFs\ff.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\Settings\settings.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\include\FreeRTOS.h" lastModified="140872d4268">
+         <include file="..\..\..\FreeRTOS\include\projdefs.h"/>
+         <include file="..\..\..\FreeRTOS\include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FreeRTOS\include\portable.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\FreeRTOS\sys_arch.c" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\md5.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\loopif.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\RTC\rtc.h" lastModified="14962b8e5c8">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_exti.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\init.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\init.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\tcp.c" lastModified="1409a9b3a58">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="147f0c74910">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\HTTP\inc\stm32f4x7_eth_bsp.h"/>
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\RTC\rtc.c" lastModified="14a02f266e8">
+         <include file="..\..\..\RTC\rtc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="14a54785a0b">
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h"/>
+         <include file="..\..\..\HTTP\inc\netconf.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\HTTP\inc\httpserver-netconn.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_debug.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.h"/>
+         <include file="..\..\..\FatFs\ff.h"/>
+         <include file="..\..\..\OneWire\tm_stm32f4_onewire.h"/>
+         <include file="..\..\..\GPIO_ADC\gpio_adc.h"/>
+         <include file="..\..\..\Settings\settings.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\sys_arch.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\include\queue.h"/>
+         <include file="..\..\..\FreeRTOS\include\semphr.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\netifapi.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+      </source>
+      <source file="..\..\..\HTTP\inc\httpserver-netconn.h" lastModified="14a4af9662c">
+         <include file="..\..\..\SD\sd_card.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\icmp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dma.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\netbuf.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h" lastModified="13d42c29810">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="147b63f4ab8">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FatFs\ff.h" lastModified="13d42c29810">
+         <include file="..\..\..\FatFs\integer.h"/>
+         <include file="..\..\..\FatFs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery.c" lastModified="13d42c29810">
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="147c7363f98">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.h"/>
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\include\queue.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_pwr.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\FatFs\ff.c" lastModified="13d42c29bf8">
+         <include file="..\..\..\FatFs\ff.h"/>
+         <include file="..\..\..\FatFs\diskio.h"/>
+      </source>
+      <source file="..\..\..\HTTP\inc\stm32f4x7_eth_conf.h" lastModified="13c0ec74d40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="147b5e27900">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FatFs\diskio.h" lastModified="13d42c29810">
+         <include file="..\..\..\FatFs\integer.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="147b296e010">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_can.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\tasks.c" lastModified="140872d4a38">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\include\timers.h"/>
+         <include file="..\..\..\FreeRTOS\include\StackMacros.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\misc.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FatFs\diskio.c" lastModified="13d42c29810">
+         <include file="..\..\..\FatFs\diskio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\FatFs\ffconf.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.h"/>
+      </source>
+      <source file="..\..\..\FatFs\ffconf.h" lastModified="147f07c8220">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\dhcp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\ip_frag.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet_chksum.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\icmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.h" lastModified="13d42c29810">
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dcmi.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="147b5f9e9f9">
+      </source>
+      <source file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.c" lastModified="13d42c29810">
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_sdio_sd.h"/>
+      </source>
+      <source file="..\..\..\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h" lastModified="13c0ec77c20">
+         <include file="..\..\..\HTTP\inc\stm32f4x7_eth_conf.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rng.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\ipv4\inet.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\netdb.c" lastModified="13c0ec77c20">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netdb.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\HTTP\inc\netconf.h" lastModified="14819e9a806">
+         <include file="..\..\..\Settings\settings.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp_oe.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_fsmc.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="147b60b3e80">
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\HTTP\src\httpserver-netconn.c" lastModified="14a54785a32">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\HTTP\inc\fs.h"/>
+         <include file="..\..\..\HTTP\inc\httpserver-netconn.h"/>
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+         <include file="..\..\..\SD\sd_card.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h" lastModified="13c0ec77068">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\list.c" lastModified="140872d4268">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\list.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\sys_arch.h"/>
+      </source>
+      <source file="..\..\..\SNTP_netconn\sntp_netconn.h" lastModified="149197538a8">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\stats.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\FreeRTOS\ethernetif.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\SNTP_netconn\sntp_netconn.c" lastModified="1499f12bdf0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\SNTP_netconn\sntp_netconn.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="147b49f0c20">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\FatFs\integer.h" lastModified="13d42c29fe0">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_aes.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\FreeRTOS\ethernetif.c" lastModified="13c0ec76898">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\FreeRTOS\ethernetif.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\debug.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\arch.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\vjbsdhdr.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\inet.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\portable\GCC\ARM_CM4F\port.c" lastModified="147b6508d82">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\cpu.h" lastModified="13c0ec764b0">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\init.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netifapi.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="147b296ff50">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h" lastModified="13c0ec764b0">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h" lastModified="13c0ec764b0">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="147b6011108">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="147b296dc28">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_syscfg.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\dns.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dns.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\HTTP\src\stm32f4x7_eth_bsp.c" lastModified="13c0ec74d40">
+         <include file="..\..\..\STM32F4x7_ETH_Driver\inc\stm32f4x7_eth.h"/>
+         <include file="..\..\..\HTTP\inc\stm32f4x7_eth_bsp.h"/>
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\netif.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\autoip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="147b6602cb0">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_crc.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sio.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sockets.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\mem.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\netifapi.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netifapi.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\misc.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_wwdg.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\randm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\fsm.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ipcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\lcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\magic.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\auth.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\vj.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\ppp_oe.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_dac.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\err.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.c" lastModified="13c0ec77450">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\ppp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chap.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\netif\ppp\chpms.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_cryp_des.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_hash_sha1.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\timers.c" lastModified="140872d3e80">
+         <include file="..\..\..\FreeRTOS\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\include\queue.h"/>
+         <include file="..\..\..\FreeRTOS\include\timers.h"/>
+      </source>
+      <source file="..\..\..\HTTP\inc\stm32f4x7_eth_bsp.h" lastModified="13c0ec74d40">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery.h"/>
+         <include file="..\..\..\STM32F4-Discovery\stm32f4_discovery_lcd.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\slipif.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\slipif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\snmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sio.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_flash.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\dhcp.h" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netif.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\bpstruct.h"/>
+         <include file="..\..\..\lwip_v1.3.2\port\STM32F4x7\arch\epstruct.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h"/>
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\memp.c" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\pbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\igmp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api_msg.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\stats.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\netif\etharp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_frag.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp_std.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\api\api_lib.c" lastModified="13c0ec77838">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\raw.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\udp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcp.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\include\lwip\api.h" lastModified="13c0ec77068">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\netbuf.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\ipv4\lwip\ip_addr.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\err.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="147b296e010">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rtc.c" lastModified="14347df9e50">
+         <include file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h"/>
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\netif\ppp\pppdebug.h" lastModified="13c0ec76c80">
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="147b296e010">
+      </source>
+      <source file="..\..\..\lwip_v1.3.2\src\core\sys.c" lastModified="13c0ec76c80">
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\opt.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\sys.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\def.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\memp.h"/>
+         <include file="..\..\..\lwip_v1.3.2\src\include\lwip\tcpip.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rng.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h" lastModified="14347df9e50">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

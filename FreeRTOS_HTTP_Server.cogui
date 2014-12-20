@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench version="2.0">
+<workbenchAdvisor/>
+<window>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+</fastViewData>
+<perspectiveBar/>
+<page aggregateWorkingSetId="Aggregate for window 1376396728978" focus="true" label="Workspace - CooCox CoBuilder">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/main.c" title="main.c" tooltip="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS_HTTP_Server/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2316" selectionTopPixel="839"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="httpserver-netconn.c" partName="httpserver-netconn.c" path="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/HTTP/src/httpserver-netconn.c" title="httpserver-netconn.c" tooltip="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/HTTP/src/httpserver-netconn.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS_HTTP_Server/HTTP/src/httpserver-netconn.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="40432" selectionTopPixel="3031"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="settings.h" partName="settings.h" path="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/Settings/settings.h" title="settings.h" tooltip="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/Settings/settings.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS_HTTP_Server/Settings/settings.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="468" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="settings.c" partName="settings.c" path="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/Settings/settings.c" title="settings.c" tooltip="D:/Dropbox/CooCox/STM32F4_discovery_BB_SerwerHTTP/Settings/settings.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FreeRTOS_HTTP_Server/Settings/settings.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1043" selectionTopPixel="221"/>
+</editor>
+</editors>
+<views>
+<view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="2">
+<expanded>
+<element path="/FreeRTOS_HTTP_Server"/>
+<element path="/FreeRTOS_HTTP_Server/HTTP"/>
+<element path="/FreeRTOS_HTTP_Server/RTC"/>
+<element path="/FreeRTOS_HTTP_Server/SD"/>
+<element path="/FreeRTOS_HTTP_Server/Settings"/>
+<element path="/FreeRTOS_HTTP_Server/SNTP_netconn"/>
+</expanded>
+<selection>
+<element path="/FreeRTOS_HTTP_Server/SNTP_netconn/sntp_netconn.c"/>
+</selection>
+</viewState>
+</view>
+<view id="org.coocox.component.ui.ComponentView" partName="Components">
+<viewState/>
+</view>
+<view id="org.coocox.codebugger.trace.ui.traceview" partName="Semihosting">
+<viewState/>
+</view>
+<view id="org.eclipse.search.ui.views.SearchView" partName="Search">
+<viewState isPinned="false">
+<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="2" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
+<view IMemento.internal.id="org.eclipse.cdt.ui.pdomSearchViewPage" definitionColumnWidth="150" locationColumnWidth="300" matchColumnWidth="300" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" showEnclosingDefinitions="true"/>
+<view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
+</viewState>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.coocox.component.ui.Help" partName="Help">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
+<hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
+<hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.coocox.component.ui.ComponentView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<view id="org.coocox.component.ui.Help"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@74f65c">
+<folder activePageID="org.coocox.component.ui.ComponentView" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.ComponentView" label="Components"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@74f65c">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a4b626" ratio="0.74229074" ratioLeft="674" ratioRight="234" relationship="4" relative="org.eclipse.ui.internal.ViewStack@74f65c">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info part="org.coocox.builder.ui.exampleView" ratio="0.15698023" ratioLeft="262" ratioRight="1407" relationship="2" relative="org.eclipse.ui.internal.ViewStack@74f65c"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1bb2f1b" ratio="0.8625356" ratioLeft="1211" ratioRight="193" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
+<page content="org.coocox.component.ui.Help" label="Help"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
+<page content="org.coocox.builder.ui.MoreExampleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.44924405" ratioLeft="416" ratioRight="510" relationship="4" relative="org.coocox.builder.ui.exampleView"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@da2ceb" ratio="0.15923567" ratioLeft="125" ratioRight="660" relationship="4" relative="org.eclipse.ui.internal.ViewStack@74f65c">
+<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
+<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.coocox.codebugger.configuration.ui.Perspective" id="org.coocox.codebugger.configuration.perspective" label="CoDebugger"/>
+<alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
+<alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFolder"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_menu_item_id id="org.eclipse.ui.file.save"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAll"/>
+<hide_menu_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openFile"/>
+<hide_menu_item_id id="org.eclipse.ui.file.saveAs"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.projectMenu"/>
+<hide_menu_item_id id="org.coocox.builder.rcp.flashMenu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.debug"/>
+<hide_menu_item_id id="org.coocox.builder.ui.showHelpViewAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_menu_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
+<hide_menu_item_id id="org.coocox.builder.ui.build"/>
+<hide_menu_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_menu_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.TargetManageAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newProject"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.repository"/>
+<hide_toolbar_item_id id="org.eclipse.ui.file.save"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.rebuild"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideFlashEraseAction"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.debug"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.newFile"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.actions.ConfigurationAction"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
+<hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
+<hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.coocox.codebugger.trace.ui.traceview"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.coocox.component.ui.Help"/>
+<view id="org.eclipse.search.ui.views.SearchView"/>
+<view id="org.coocox.builder.ui.views.ProjectView"/>
+<fastViewBars/>
+<viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@5cdd29">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5cdd29">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a7476f" ratio="0.69880825" ratioLeft="645" ratioRight="278" relationship="4" relative="org.eclipse.ui.internal.ViewStack@5cdd29">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11c486a" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.internal.ViewStack@a7476f">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.coocox.component.ui.Help" label="Help"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="Search"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1d654da" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5cdd29">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.3498818" ratioLeft="444" ratioRight="825" relationship="2" relative="org.eclipse.ui.internal.ViewStack@5cdd29"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/RTC/rtc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/HTTP/src/httpserver-netconn.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/HTTP/inc/httpserver-netconn.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/SD/sd_card.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/SNTP_netconn/sntp_netconn.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/GPIO_ADC/gpio_adc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/Settings/settings.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/Settings/settings.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/SD/sd_card.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/SD/sd_card.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/HTTP/src/httpserver-netconn.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/SD/sd_card.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FreeRTOS_HTTP_Server/HTTP/src/httpserver-netconn.c"/>
+</editors>
+<item historyLabel="rtc.c" index="0">
+<position info="not_deleted" x="3530" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="42640" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.h" index="2">
+<position info="not_deleted" x="280" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="42640" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="41655" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="43044" y="19"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="41657" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="43044" y="19"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="55516" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="1">
+<position info="not_deleted" x="44226" y="22"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="5611" y="0"/>
+</item>
+<item historyLabel="sd_card.h" index="4">
+<position info="not_deleted" x="1086" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="5665" y="0"/>
+</item>
+<item historyLabel="sntp_netconn.c" index="5">
+<position info="not_deleted" x="1742" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="5665" y="0"/>
+</item>
+<item historyLabel="gpio_adc.h" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="5665" y="0"/>
+</item>
+<item historyLabel="rtc.c" index="0">
+<position info="not_deleted" x="3530" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="5665" y="0"/>
+</item>
+<item historyLabel="settings.h" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="settings.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="settings.h" index="7">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="settings.c" index="8">
+<position info="not_deleted" x="1045" y="0"/>
+</item>
+<item historyLabel="settings.h" index="7">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="settings.c" index="8">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="2316" y="0"/>
+</item>
+<item historyLabel="sd_card.c" index="9">
+<position info="not_deleted" x="2530" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="3966" y="0"/>
+</item>
+<item historyLabel="settings.h" index="7">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="settings.c" index="8">
+<position info="not_deleted" x="528" y="0"/>
+</item>
+<item historyLabel="settings.c" index="8">
+<position info="not_deleted" x="1044" y="0"/>
+</item>
+<item historyLabel="settings.h" index="7">
+<position info="not_deleted" x="468" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="3931" y="0"/>
+</item>
+<item historyLabel="settings.c" index="8">
+<position info="not_deleted" x="1044" y="0"/>
+</item>
+<item historyLabel="sd_card.c" index="10">
+<position info="not_deleted" x="2565" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="43926" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="38937" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="56576" y="15"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="56927" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="9127" y="13"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="2316" y="0"/>
+</item>
+<item historyLabel="sd_card.c" index="10">
+<position info="not_deleted" x="2462" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="9149" y="15542"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="39158" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="42431" y="23"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="42710" y="0"/>
+</item>
+<item historyLabel="httpserver-netconn.c" index="11">
+<position info="not_deleted" x="35237" y="19"/>
+</item>
+<item historyLabel="sd_card.c" index="13">
+<position info="not_deleted" x="9930" y="0"/>
+</item>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="2316" y="0"/>
+</item>
+<item active="true" historyLabel="httpserver-netconn.c" index="15">
+<position info="not_deleted" x="36031" y="10"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sd_card.c" tooltip="FreeRTOS_HTTP_Server/SD/sd_card.c">
+<persistable path="/FreeRTOS_HTTP_Server/SD/sd_card.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="settings.c" tooltip="FreeRTOS_HTTP_Server/Settings/settings.c">
+<persistable path="/FreeRTOS_HTTP_Server/Settings/settings.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="settings.h" tooltip="FreeRTOS_HTTP_Server/Settings/settings.h">
+<persistable path="/FreeRTOS_HTTP_Server/Settings/settings.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="httpserver-netconn.h" tooltip="FreeRTOS_HTTP_Server/HTTP/inc/httpserver-netconn.h">
+<persistable path="/FreeRTOS_HTTP_Server/HTTP/inc/httpserver-netconn.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_onewire.c" tooltip="FreeRTOS_HTTP_Server/OneWire/tm_stm32f4_onewire.c">
+<persistable path="/FreeRTOS_HTTP_Server/OneWire/tm_stm32f4_onewire.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_onewire.h" tooltip="FreeRTOS_HTTP_Server/OneWire/tm_stm32f4_onewire.h">
+<persistable path="/FreeRTOS_HTTP_Server/OneWire/tm_stm32f4_onewire.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="gpio_adc.c" tooltip="FreeRTOS_HTTP_Server/GPIO_ADC/gpio_adc.c">
+<persistable path="/FreeRTOS_HTTP_Server/GPIO_ADC/gpio_adc.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="gpio_adc.h" tooltip="FreeRTOS_HTTP_Server/GPIO_ADC/gpio_adc.h">
+<persistable path="/FreeRTOS_HTTP_Server/GPIO_ADC/gpio_adc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="rtc.c" tooltip="FreeRTOS_HTTP_Server/RTC/rtc.c">
+<persistable path="/FreeRTOS_HTTP_Server/RTC/rtc.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="rtc.h" tooltip="FreeRTOS_HTTP_Server/RTC/rtc.h">
+<persistable path="/FreeRTOS_HTTP_Server/RTC/rtc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_iwdg.c" tooltip="FreeRTOS_HTTP_Server/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c">
+<persistable path="/FreeRTOS_HTTP_Server/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_iwdg.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_iwdg.h" tooltip="FreeRTOS_HTTP_Server/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_iwdg.h">
+<persistable path="/FreeRTOS_HTTP_Server/STM32F4xx_StdPeriph_Driver/inc/stm32f4xx_iwdg.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="inet.c" tooltip="FreeRTOS_HTTP_Server/lwip_v1.3.2/src/core/ipv4/inet.c">
+<persistable path="/FreeRTOS_HTTP_Server/lwip_v1.3.2/src/core/ipv4/inet.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sntp_netconn.h" tooltip="FreeRTOS_HTTP_Server/SNTP_netconn/sntp_netconn.h">
+<persistable path="/FreeRTOS_HTTP_Server/SNTP_netconn/sntp_netconn.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sntp_netconn.c" tooltip="FreeRTOS_HTTP_Server/SNTP_netconn/sntp_netconn.c">
+<persistable path="/FreeRTOS_HTTP_Server/SNTP_netconn/sntp_netconn.c"/>
+</file>
+</mruList>
+</workbench>
